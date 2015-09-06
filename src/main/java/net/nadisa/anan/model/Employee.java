@@ -16,8 +16,11 @@ public class Employee {
 	@Column(name = "pass", nullable = false)
 	private String password;
 	
-	public Employee() {
-		
+	public Employee() {}
+	
+	public Employee(String u, String p) {
+		this.username=u;
+		this.password=p;
 	}
 	public long getId() {
 		return id;
