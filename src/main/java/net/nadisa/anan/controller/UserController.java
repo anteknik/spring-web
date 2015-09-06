@@ -15,14 +15,12 @@ public class UserController {
 
 	@RequestMapping(value = "/login")
 	public ModelAndView login() {
-		System.out.println("UserController : login");
 		ModelAndView modelAndView = new ModelAndView("/user/login");
 		return modelAndView;
 	}
 	
 	@RequestMapping(value = "/authenticate")
 	public ModelAndView authenticate() {
-		System.out.println("UserController : authenticate");
 		ModelAndView modelAndView = new ModelAndView("/user/home");
 		userService.authenticate();
 		return modelAndView;

@@ -13,7 +13,6 @@ public class UserserviceImpl implements UserService {
 	private UserDao userDao;
 
 	public void authenticate() {
-		System.out.println("UserserviceImpl : authenticate");
 		userDao.authenticate();
 
 	}
