@@ -1,6 +1,4 @@
-<html>
-<body>
-<h2>Hello nadisa!</h2>
-<a href="./welcome">welcome</a>
-</body>
-</html>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<c:redirect url="/welcome" />
+
