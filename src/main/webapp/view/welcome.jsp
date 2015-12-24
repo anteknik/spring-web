@@ -8,6 +8,7 @@
 </head>
 <body>
 	welcome page 
+	
 	<a href="./user/login">login</a>
 	
 </body>

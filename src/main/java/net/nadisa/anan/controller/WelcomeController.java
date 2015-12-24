@@ -7,11 +7,12 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class WelcomeController {
-
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView welcome() {
-		ModelAndView modelAndView = new ModelAndView("welcome");
-		return modelAndView;
+		ModelAndView mv = new ModelAndView("welcome");
+		return mv;
+		
 	}
 
 }

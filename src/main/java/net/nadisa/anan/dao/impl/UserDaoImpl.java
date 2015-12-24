@@ -7,6 +7,8 @@ import net.nadisa.anan.dao.UserDao;
 @Repository
 public class UserDaoImpl implements UserDao {
 
-	public void authenticate() {}
+	public void authenticate() {
+
+	}
 
 }
