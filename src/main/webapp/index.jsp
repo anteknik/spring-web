@@ -1,6 +1,8 @@
-<html>
-<body>
-<h2>Hello nadisa!</h2>
-<a href="./welcome">welcome</a>
-</body>
-</html>
+<html> 
+<body> 
+<h2>Hello World!</h2> 
+	<form action="greet"> 
+		<input type="submit" value="Press to greet"> 
+	</form> 
+</body> 
+</html> 
